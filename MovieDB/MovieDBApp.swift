@@ -1,9 +1,4 @@
-//
-//  MovieDBApp.swift
-//  MovieDB
-//
-//  Created by mac on 18/5/25.
-//
+//  Created by Aji Prakosa on 18/5/25.
 
 import SwiftUI
 
@@ -13,8 +8,7 @@ struct MovieDBApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MovieListView()
         }
     }
 }

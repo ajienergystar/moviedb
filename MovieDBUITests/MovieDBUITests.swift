@@ -1,9 +1,4 @@
-//
-//  MovieDBUITests.swift
-//  MovieDBUITests
-//
-//  Created by mac on 18/5/25.
-//
+//  Created by Aji Prakosa on 18/5/25.
 
 import XCTest
 
